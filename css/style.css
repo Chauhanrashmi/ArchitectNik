@@ -1097,16 +1097,16 @@ position: relative;
 .contact .contact-title{
 	padding-bottom: 50px;
 }
-.contact .port-btn{
+.contact .port-btn-cont{
 	margin-left: 120px;
 	position: relative;
 }
-.contact .contact-title .port-btn p{
+.contact .contact-title .port-btn-cont p{
 	font-weight: 500;
 	color: #1b1c4a;
     margin-top: 55px;
 }
-.contact .contact-title .port-btn:before {
+.contact .contact-title .port-btn-cont:before {
     position: absolute;
     content: '';
     width: 94px;
@@ -1233,9 +1233,323 @@ footer .foot ul li{
 	padding-left: 30px;
 }
 
-
+/*responsive css starts*/
 @media only screen and (max-width: 600px) {
 .extra-bg{
+    height: 1018px;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 600px) {
+.navbar-brand{
+    margin-right: 0rem;
+}
+.navbar{
+	padding: 0rem 0rem;
+}
+}
+@media only screen and (max-width: 600px) {
+.home-comment{
 	display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+.home1 {
+    font-size: 44px;
+    line-height: 62px;
+    padding-right: 70px;
+}
+}
+@media only screen and (max-width: 600px) {
+.home6{
+	font-size: 18px;
+    padding: 20px 0 30px 0;
+}
+}
+@media only screen and (max-width: 600px) {
+.carousel-caption {
+	padding: 20px;
+    position: absolute;
+    text-align: left;
+    left: 0%;
+    top: 20%;
+    right: 3%;
+    color: #fff;
+}
+}
+@media only screen and (max-width: 600px) {
+.home .btn-video {
+    padding: 16px 0px;
+}
+}
+@media only screen and (max-width: 600px) {
+.carousel-control-next{
+	    position: absolute;
+    top: auto;
+    bottom: -67px;
+    left: 50px;
+    right: auto;
+}
+}
+@media only screen and (max-width: 600px) {
+.carousel-control-prev{
+	    position: absolute;
+    top: auto;
+    left: 18px;
+    bottom: -67px;
+}
+}
+@media only screen and (max-width: 600px) {
+.home .carousel-indicators{
+	    position: absolute;
+    right: auto;
+    bottom: -80px !important;
+    left: 117px;
+    z-index: 15;
+}
+}
+
+
+/*why section*/
+@media only screen and (max-width: 600px) {
+.why .col-md-4{
+	margin: 30px 15px 0 15px;
+	padding: 0px 0px 0px 0px;
+}
+.why .why2{
+	padding: 30px 20px 30px 20px;
+}
+.why .why3{
+	padding: 
+	30px 20px 30px 20px;
+}
+}
+
+/*about-us*/
+@media only screen and (max-width: 600px){
+.about .about-container .about-title h3{
+ font-size: 44px;
+}
+}
+@media only screen and (max-width: 600px){
+.about .about-container .about-content {
+    padding-right: 63px;
+    padding-left: 0px;
+}
+}
+@media only screen and (max-width: 600px){
+.about-content:before{
+	display: none;
+}
+}
+@media only screen and (max-width: 600px){
+.about .about-container .about-content h6 {
+    padding-bottom: 20px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+}
+}
+@media only screen and (max-width: 600px){
+.about-img{
+	display: none;
+}
+.location-icon{
+	display: none;
+}
+.about .locations{
+	margin-top: 0px;
+	    text-align: center;
+	    padding-bottom: 0px;
+}
+.about .locations .location1{
+	padding:15px 0 25px 0px;
+}
+.about .locations .location2{
+	padding:15px 0 25px 0px;
+}
+.about .locations .location3{
+	border-right: 1px solid #e8e8e8;
+	padding:15px 0 6px 0px;
+}
+}
+
+/*portfolio*/
+@media only screen and (max-width: 600px){
+.portfolio .portfolio-item{
+	margin: 0 0px 30px 0px;
+
+}
+.portfolio .portfolio-title {
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.portfolio h3 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 68px;
+    padding: 15px 0 60px 0;
+    text-transform: capitalize;
+    color: #1b1c4a;
+}
+.port-btn{
+	display: none;
+}
+.portfolio .item1{
+	height: 400px;
+}
+.portfolio .item2 img{
+	height: 400px;
+}
+.portfolio .item5 img{
+	height: 400px;
+}
+.portfolio .main {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+}
+
+/*category*/
+@media only screen and (max-width: 600px){
+	.category .boxe{
+		display: none;
+	}
+	.category-item1{
+		display: none;
+	}
+	.category .port-btn1{
+		display: none;
+	}
+	.category {
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+	}
+	.category h3 {
+	    font-size: 43px;
+	    font-weight: 400;
+	    line-height: 68px;
+	    padding: 15px 0 60px 0;
+	    text-transform: capitalize;
+	    color: #1b1c4a;
+	}
+	.category .category-title {
+    padding-bottom: 0px;
+    }
+    .pt-5{
+    padding-top: 0rem!important;
+    padding-left: 30px;
+    padding-right: 30px;
+	}
+	.cat-item {
+		padding: 34px 30px;
+	}
+}
+
+/*works*/
+@media only screen and (max-width: 600px){
+.works h3{
+  font-size: 43px;
+}
+.works .works-item {
+    color: white;
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+.works .works-item .work h1 {
+    font-weight: 900;
+    font-size: 200px;
+    opacity: 0.3;
+    color: #fff;
+    top: -115px;
+    right: -65px;
+    position: absolute;
+}
+}
+
+/*testimonial*/
+@media only screen and (max-width: 600px){
+	.testimonial {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.testimonial .testi-item {
+    background: #fff;
+    padding: 40px 25px;
+}
+}
+
+/*blogs*/
+@media only screen and (max-width: 600px){
+.blogs h3 {
+    font-size: 43px;
+}
+.blogs .blog-item {
+    margin-bottom: 30px;
+}
+.blogs .blog-item .blog-content .btn-contact{
+	display: none;
+}
+}
+
+/*team*/
+@media only screen and (max-width: 600px){
+.team .team-title {
+    padding-right: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
+.team h3 {
+    font-size: 43px;
+}
+}
+
+/*contactus*/
+@media only screen and (max-width: 600px){
+.contact .cont {
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    padding: 75px 10px 60px;
+    border-bottom: 5px solid #4f50e9;
+    position: relative;
+    top: 195px;
+}
+.contact h3 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 68px;
+    padding: 15px 0px 5px 0;
+    text-transform: capitalize;
+    color: #1b1c4a;
+}
+.contact .port-btn-cont{
+	margin-left: 0px;
+	position: relative;
+}
+.contact .contact-title .port-btn-cont:before {
+    display: none;
+}
+.contact .phone{
+	padding-left: 0px;
+}
+.contact .contact-title{
+	padding-bottom: 20px;
+}
+}
+
+/*footer*/
+@media only screen and (max-width: 600px){
+.footer .footer-menu {
+	padding-left: 30px;
+}
+footer .foot {
+    padding: 65px 30px 35px 30px;
+    text-align: center;
 }
 }
