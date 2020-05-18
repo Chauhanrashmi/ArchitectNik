@@ -1232,3 +1232,10 @@ footer .foot ul{
 footer .foot ul li{
 	padding-left: 30px;
 }
+
+
+@media only screen and (max-width: 600px) {
+.extra-bg{
+	display: none;
+}
+}
