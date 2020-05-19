@@ -1553,3 +1553,19 @@ footer .foot {
     text-align: center;
 }
 }
+
+/*navbar css*/
+@media only screen and (max-width: 600px){
+.navbar-toggler {
+    height: 3rem;
+    width: 3rem;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+    border-radius: 0rem;
+}
+.navbar-light .navbar-toggler span{
+	    font-size: 24px;
+}
+}
